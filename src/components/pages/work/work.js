@@ -16,6 +16,13 @@ export default function Projects() {
           </p>
         </div>
         {/* here we are setting up in a way like a partials so that way I can import my projects from another file so that way it leaves me with a cleaner looking work.js file */}
-
+        <div className="flex flex-wrap -m-4">
+          {projects.map((project) => (
+            <a
+              href={project.link}
+              key={project.image}
+              className="sm:w-1/2 w-100 p-4">
+              <div className="flex relative"></div>
+              {/* then we grab a specific picture */}
 
         </section>
