@@ -10,6 +10,13 @@
             // !reverses my false use state
             setToggleMenu(!toggleMenu)
         }
+        useEffect(() => {
+         const  changeWidth = () => {
+             setScreenWidth(windown.innerWidth)
+         }
+         //everytime the window is resized we change the width
+          window.addEventListener('resize', changeWidth)  
+        }, [])
 
       return (
         <nav>
