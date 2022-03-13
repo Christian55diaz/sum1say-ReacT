@@ -1,9 +1,9 @@
 // importing
 import React from "react";
-import "./me.css";
 
 //info about me function
-function Me() {
+//export and calling function
+export default function Me() {
     return(
         <div className="me-container" id="Me">
         <div>
@@ -20,5 +20,3 @@ function Me() {
         </div>
     );
 }
-
-export default Me;
