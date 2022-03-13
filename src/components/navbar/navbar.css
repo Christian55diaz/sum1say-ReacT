@@ -21,6 +21,15 @@
      color: #f1f1f1;
      cursor: pointer;
  }
+ .btn {
+     display: none;
+     position: absolute;
+     right: 10px;
+     top: 7px;
+     padding: 5px;
+     color: black;
+     font-size: 17px;
+ }
 /* for mobile purposes */
  @media screen and (max-width: 500px){
      .list {
