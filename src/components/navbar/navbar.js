@@ -16,6 +16,10 @@
          }
          //everytime the window is resized we change the width
           window.addEventListener('resize', changeWidth)  
+          //return so we do not keep addeventlistener in the memory
+          return () => {
+              window.removeEventListener('resize', changeWidth)
+          }
         }, [])
 
       return (
