@@ -3,6 +3,9 @@
     
     export default function navbar() {
         const [toggleMenu, setToggleMenu] = useState(false)
+        //allows button to show on full screen instead displaying null
+        const [screenWidth, setScreenWidth] = useState
+        (window.innerWidth)
         const toggleNav = () => {
             // !reverses my false use state
             setToggleMenu(!toggleMenu)
@@ -10,14 +13,14 @@
 
       return (
         <nav>
-            {toggleMenu && (
+            {(toggleMenu || screenWidth > 500) && (
                 <ul className='list'>
                 <li className='items'>About Me</li>
                 <li className='items'>Projects</li>
                 <li className='items'>Contact</li>
                 </ul>
             )}
-            <button className='btn'>click me</button>
+            <button onClick={toggleNav} className='btn'>click me</button>
         </nav>
       )
     }
