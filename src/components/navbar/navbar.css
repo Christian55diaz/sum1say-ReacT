@@ -14,10 +14,28 @@
      align-items: center;
      position: relative;
  }
- .item {
-     margin-right: 20px;
-     font-size: 20px;
+ .items {
+     margin-right: 25px;
+     font-size: 25px;
      text-transform: uppercase;
      color: #f1f1f1;
      cursor: pointer;
+ }
+/* for mobile purposes */
+ @media screen and (max-width: 500px){
+     .list {
+         flex-direction: column;
+         height: auto;
+     }
+     .items:nth-child(1) {
+        border-top: 1px solid rgb(255, 255, 255);
+        margin-top: 50px;
+     }
+     .items {
+        width: 100%;
+        border-top: 1px solid rgb(255, 255, 255);
+        text-align: center;
+        margin-right: 0px;
+        padding: 20px 0;
+     }
  }

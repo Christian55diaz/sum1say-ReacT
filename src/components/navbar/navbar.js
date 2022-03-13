@@ -5,9 +5,9 @@
       return (
         <nav>
             <ul className='list'>
-            <li className='list'>About Me</li>
-            <li className='list'>Projects</li>
-            <li className='list'>Contact Me</li>
+            <li className='items'>About Me</li>
+            <li className='items'>Projects</li>
+            <li className='items'>Contact</li>
             </ul>
             <button className='btn'>BTN</button>
         </nav>
