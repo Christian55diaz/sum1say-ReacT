@@ -20,19 +20,6 @@ export default function Me() {
         foundation and step towards the Software Enginering feild, where I will grow and develop more to hopefully create that game changing app!
         I have skills in Javascript, Html, CSS, MySQL, MongoDB, Mongoose, and Communication.
         </p>
-        {/* making sure the contact section is centered */}
-        <div className="">
-            <a
-              href="#contact"
-              className="">
-               Ready to work
-            </a>
-            <a
-              href="#work"
-              className="">
-              See My Work
-            </a>
-        </div>
             </section>
         
     );

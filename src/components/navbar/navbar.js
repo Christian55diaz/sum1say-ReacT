@@ -26,9 +26,9 @@
         <nav>
             {(toggleMenu || screenWidth > 500) && (
                 <ul className='list'>
-                <li className='items'>About Me</li>
-                <li className='items'>Projects</li>
-                <li className='items'>Contact</li>
+               <a href='#Me'><li className='items'>About Me</li></a>
+               <a href='#Work'><li className='items'>Projects</li></a>
+                <a href='#Contact'><li className='items'>Contact</li></a>
                 </ul>
             )}
             <button onClick={toggleNav} className='btn'>click me</button>
