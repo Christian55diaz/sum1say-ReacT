@@ -8,3 +8,7 @@ html {
     box-sizing: border-box;
     font-family: "LEAGUE SPARTAN", sans-serif;
   }
+  /* tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

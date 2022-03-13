@@ -1,7 +1,7 @@
 // importing all of what i neeed
 import "./app.css";
 import Navbar from "./components/navbar/navbar";
-import Footer from "./components/footer/footer";
+// import Footer from "./components/footer/footer";
 import Me from "./components/pages/me/me";
 import Work from "./components/pages/work/work";
 import Contact from "./components/pages/contact/contact";
@@ -12,8 +12,8 @@ export default function App() {
       <Navbar />
       <Me />
       <Work />
-      <Contact />
-      <Footer />
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </main>
   );
 }

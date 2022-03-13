@@ -5,41 +5,41 @@ import { projects } from "./workData";
 export default function Projects() {
     return (
         // bringing in css again so that i do no have to make a seperate file
-        <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-        <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+        <section id="projects" className="">
+        <div className="">
+        <div className="">
+          <h1 className="">
               Apps I've Built
               </h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              <p className="">
            These are my four favorite projects I've built during my time in my bootcamp.
           </p>
         </div>
         {/* here we are setting up in a way like a partials so that way I can import my projects from another file so that way it leaves me with a cleaner looking work.js file */}
-        <div className="flex flex-wrap -m-4">
+        <div className="">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative"></div>
+              className="">
+              <div className=""></div>
               {/* then we grab a specific picture */}
               <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className=""
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                <div className="">
+                  <h2 className="">
                       {/* if project has subtitle add it */}
                     {project.subtitle}
                   </h2>
                   {/* project title */}
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className="">
                     {project.title}
                   </h1>
                   {/* project description */}
-                  <p className="leading-relaxed">{project.description}</p>
+                  <p className="">{project.description}</p>
                 </div>
             </a>
           ))}
