@@ -1,7 +1,7 @@
     import React, {useState, useEffect} from 'react'
     import './navbar.css' 
     
-    export default function navbar() {
+    export default function Navbar() {
         const [toggleMenu, setToggleMenu] = useState(false)
         //allows button to show on full screen instead displaying null
         const [screenWidth, setScreenWidth] = useState
@@ -12,7 +12,7 @@
         }
         useEffect(() => {
          const  changeWidth = () => {
-             setScreenWidth(windown.innerWidth)
+             setScreenWidth(window.innerWidth)
          }
          //everytime the window is resized we change the width
           window.addEventListener('resize', changeWidth)  

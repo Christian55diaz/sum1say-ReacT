@@ -6,10 +6,14 @@ import Me from "./components/pages/me/me";
 import Work from "./components/pages/work/work";
 import Contact from "./components/pages/contact/contact";
 
-function App() {
+export default function App() {
   return (
-    < Navbar />
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <Navbar />
+      <Me />
+      <Work />
+      <Contact />
+      <Footer />
+    </main>
   );
 }
-// EXPORTING
-export default App;
