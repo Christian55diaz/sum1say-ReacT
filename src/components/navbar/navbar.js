@@ -1,4 +1,4 @@
-    import React from 'react'
+    import React, {useState, useEffect} from 'react'
     import './navbar.css' 
     
     export default function navbar() {
@@ -9,7 +9,6 @@
             <li className='items'>Projects</li>
             <li className='items'>Contact</li>
             </ul>
-            <button className='btn'>BTN</button>
         </nav>
       )
     }
