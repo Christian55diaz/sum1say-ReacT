@@ -1,9 +1,12 @@
    import "./intro.css"
-   
+   //importing my personal picture
+  
+
    const Intro = () => {
         return (
             //i = shortcut for index
             <div className="i">
+                {/* left side of the header(intro) */}
                 <div className="i-left">
                     <div className="i-left-wrapper">
                         <h2 className="i-welcome">Welcome, My name is</h2>
@@ -20,12 +23,14 @@
 
                                    This schooling is my step towards the Software Enginering feild, where I will
                                    grow and develop more to hopefully create that game changing app!
-
                                    </div>
                             </div>
                         </div>
                     </div>
-                <div className="i-right">right</div>
+                    {/* right side of the header(intro) */}
+                <div className="i-right">right
+                    
+                </div>
             </div>
         )
     }

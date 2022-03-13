@@ -41,6 +41,7 @@
     }
 
     .i-title-career{
+        margin-bottom: 2rem;
         height: 50px;
         font-size: 30px;
         font-weight: bold;
@@ -49,3 +50,4 @@
         display: flex;
         display: center;
     }
+    
