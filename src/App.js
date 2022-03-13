@@ -2,23 +2,13 @@
 import "./app.css";
 import Navbar from "./components/navbar/navbar";
 import Footer from "./components/footer/footer";
-import AboutMe from "./components/pages/me/me";
-import MyWork from "./components/pages/work/work";
-import ContactMe from "./components/pages/contactme/contact-me";
+import Me from "./components/pages/me/me";
+import Work from "./components/pages/work/work";
+import Contact from "./components/pages/contact/contact";
 
 function App() {
   return (
-    <div className="App" id="Home">
-      <header className="nav-header z-index">
-        <Navbar />
-      </header>
-      <main>
-        <MyWork />
-        <AboutMe />
-        <ContactMe />
-      </main>
-      <Footer />
-    </div>
+    < Navbar />
   );
 }
 // EXPORTING
