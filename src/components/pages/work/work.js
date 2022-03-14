@@ -23,7 +23,7 @@ export default function Projects() {
               <img
                   alt="gallery"
                   className="work-img"
-                  src={project.image}
+                  src={process.env.PUBLIC_URL + project.image}
                 />
                 <div className="proj-stuff">
                   <h2 className="sub-title">
