@@ -1,5 +1,6 @@
 // importing
 import React from "react";
+import "./me.css"
 
 //info about me function
 //export and calling function
@@ -10,7 +11,7 @@ export default function Me() {
             <h1 className="title">
                 Welcome, I'm Christian.
                 {/* we put a break so there is room for this statement */}
-                <br className="" /> Full Stack Web Developer
+                <br className="title" /> Full Stack Web Developer
           </h1>
           <p className="about-text">
         Welcome to my portfolio! My name is Christian Diaz. I over the six months being at the Columbia Enginering bootcamp have worked on over 

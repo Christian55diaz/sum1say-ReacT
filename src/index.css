@@ -2,6 +2,7 @@
 html {
     scroll-behavior: smooth;
     height: 100%;
+    
   }
   * {
     margin: 0;
@@ -9,4 +10,6 @@ html {
     box-sizing: border-box;
     font-family: "LEAGUE SPARTAN", sans-serif;
   }
-  
+body {
+  background: linear-gradient(45deg, rgb(0, 255, 76), rgb(255, 0, 0));
+}

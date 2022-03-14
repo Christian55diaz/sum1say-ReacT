@@ -1,8 +1,15 @@
- .me-title {
+ .title {
     text-align: center;
-    font-size: var(--font-size-500);
-    color: var(--text-color);
     font-weight: 800;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 15rem;
+    margin-bottom: 3rem;
+    color: #f1f1f1;
+ }
+
+ .about-text {
+   text-align: center;
+   font-weight: 600;
+   margin-top: .5rem;
+    margin-bottom: 5rem;
+    color: #f1f1f1;
  }

@@ -1,6 +1,7 @@
 //importing my projects from workdata and react
 import React from "react";
 import { projects } from "./workData";
+import './work.css'
 
 export default function Projects() {
     return (
