@@ -28,7 +28,7 @@
                 <ul className='list'>
                <a href='#Me'><li className='items'>About Me</li></a>
                <a href='#Work'><li className='items'>Projects</li></a>
-                <a href='#Contact'><li className='items'>Contact</li></a>
+                <a href="mailto: christian55diaz@gmail.com"><li className='items'>Contact</li></a>
                 </ul>
             )}
             <button onClick={toggleNav} className='btn'>click me</button>
