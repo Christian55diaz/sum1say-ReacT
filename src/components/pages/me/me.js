@@ -6,10 +6,10 @@ import React from "react";
 export default function Me() {
     return(
         //adding css into the js file instead of using a css file
-        <section id="about">
+        <section id="Me">
             <div className=""></div>
             <div className=""></div>
-            <h1 className="">
+            <h1 className="title">
                 Welcome, I'm Christian.
                 {/* we put a break so there is room for this statement */}
                 <br className="" /> Full Stack Web Developer

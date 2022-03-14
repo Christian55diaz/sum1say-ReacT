@@ -4,7 +4,7 @@ import Navbar from "./components/navbar/navbar";
 // import Footer from "./components/footer/footer";
 import Me from "./components/pages/me/me";
 import Work from "./components/pages/work/work";
-import Contact from "./components/pages/contact/contact";
+// import Contact from "./components/pages/contact/contact";
 
 export default function App() {
   return (
