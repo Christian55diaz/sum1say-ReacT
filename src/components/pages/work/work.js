@@ -10,7 +10,7 @@ export default function Projects() {
           <h1 className="intro-desc">
               Apps I've Built
               </h1>
-              <p className="intro-desc">
+              <p className="intro-about">
            These are my four favorite projects I've built during my time in my bootcamp.
           </p>
         {/* here we are setting up in a way like a partials so that way I can import my projects from another file so that way it leaves me with a cleaner looking work.js file */}
