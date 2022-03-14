@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sum1say-ReacT/static/css/main.d2c25981.css",
+    "main.js": "/sum1say-ReacT/static/js/main.9a2ac4fe.js",
+    "index.html": "/sum1say-ReacT/index.html",
+    "main.d2c25981.css.map": "/sum1say-ReacT/static/css/main.d2c25981.css.map",
+    "main.9a2ac4fe.js.map": "/sum1say-ReacT/static/js/main.9a2ac4fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2c25981.css",
+    "static/js/main.9a2ac4fe.js"
+  ]
+}
