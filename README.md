@@ -25,7 +25,7 @@ Contact email: christian55diaz@gmail.com
   
 GitHub: [christian55diaz](https://github.com/christian55diaz)
 
-Deployment: 
+Deployment: https://christian55diaz.github.io/sum1say-ReacT/
 
   
 ## Usage
