@@ -24,11 +24,11 @@ export const projects = [
         link: "https://github.com/Christian55diaz/E-commerce-Back-End",
       },
       {
-        title: "Social Network Api",
-        subtitle: "Javascript",
+        title: "Qrad",
+        subtitle: "FullStack Graphql",
         description:
-          "Social media api that allows you to find specific id of comments, users or posts",
-        image: "/Assets/socnetwork.png",
-        link: "https://github.com/Christian55diaz/Soc.Network-Api",
+          "Qrad is a website that allows you to exchange business cards online via a QrCode.",
+        image: "/Assets/qrad.png",
+        link: "https://github.com/hpurring/project-3-group-a/tree/dashboard",
       },
 ];
